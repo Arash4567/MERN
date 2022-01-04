@@ -12,3 +12,9 @@ console.log(matn);
 // Vazifangiz har bir ism uchun alohida message fileni 
 // send papkasida yarating!
 
+// Homework| pupil.txt nomli o`quvchilar ro`yhati bor
+// shu ro`yhatni 2 qismga bo`ling! boys.txt va girls.txt
+// boys.txt fileda faqat o`g`il bolalar,
+// girls.txt da faqat qiz bolalar ro`yhati bo`lsin!
+
+
