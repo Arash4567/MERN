@@ -1,5 +1,4 @@
-
-const people = [
+[
     {
         "_id": "61d6a1d47c8a2bedc2f19cce",
         "index": 0,
