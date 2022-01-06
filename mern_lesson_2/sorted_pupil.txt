@@ -1,0 +1,11 @@
+|---------O'gil bolalar-----------| 
+Vali erkak 18
+Bob erkak 20
+Tom erkak 20
+Mark erkak 20
+        
+|---------Qiz bolalar-----------| 
+ 
+Jasmin ayol 20
+Sevinch ayol 20
+Guli ayol 20
