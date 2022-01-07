@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-// const matn = fs.readFileSync('./index.html', 'utf-8');
-// console.log(matn);
+const matn = fs.readFileSync('./index.html', 'utf-8');
+console.log(matn);
 
 // TODO: 1 dan 10 gacha bo`lgan sonlarni natija.txt
 // fayliga yozib beruvchi kod yozing!
