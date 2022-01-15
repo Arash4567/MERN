@@ -2,8 +2,8 @@ const fs = require('fs');
 
 let boys = '';
 let girls = '';
-fs.readFile("./pupilsdfsdf.txt", "utf-8", (err, pupils) => {
-    // if (err) return console.log(`Fileni o'qishda xatolik yuz berdi!: ${err}`);
+fs.readFile("./pupildfhsjdkfhsd.txt", "utf-8", (err, pupils) => {
+    if (err) return console.log(`Fileni o'qishda xatolik yuz berdi!: ${err}`);
     pupils.split(",").forEach((person) => {
         person.split(" ")[1] === "erkak" ? boys += person : girls += person;
     });
