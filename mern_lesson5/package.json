@@ -1,0 +1,29 @@
+{
+  "name": "test_npm",
+  "version": "1.0.0",
+  "description": "[\"npm\", \"slugify\", \"nodemon\"]",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arash4567/MERN.git"
+  },
+  "keywords": [
+    "npm",
+    "monitor",
+    "nodemon"
+  ],
+  "author": "Ogabek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arash4567/MERN/issues"
+  },
+  "homepage": "https://github.com/Arash4567/MERN#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "prompt-sync": "^4.2.0",
+    "slugify": "^1.6.5"
+  }
+}

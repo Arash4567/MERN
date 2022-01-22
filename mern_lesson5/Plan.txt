@@ -1,0 +1,7 @@
+1. NPM (Node Package Manager)
+2. slugify modul
+3. nodemon modul
+4. versiyalash
+5. Static & Dynamic API
+6. .gitignore
+7. MarkDown text
