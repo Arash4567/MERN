@@ -1,0 +1,4 @@
+1. dog.ceo - Api 
+2. ipsum.photos - Api
+3. Callback function (Qaytadigan function)
+4. 
