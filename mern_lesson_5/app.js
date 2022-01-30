@@ -1,5 +1,5 @@
 /* const slug = require("slugify");
-
+npm --v
 console.log(slug("Assalomu aleykum"));
 console.log(slug("Assalomu aleykum", "_"));
 console.log(slug("Assalomu   aleykum?", {
@@ -13,7 +13,7 @@ console.log(slug("Assalomu   aleykum?", {
 
 /* "nodemon": "^2.1.15" */
 
-// 15 - bug fixed
+// 15 - bug fixed (patch)
 // 1 - minor changes
 // 2 - major changes
 

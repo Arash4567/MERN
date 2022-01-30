@@ -12,3 +12,5 @@ fs.readFile("./dog.txt", "utf-8", (err, data) => {
       });
     });
 });
+
+/* Write this function (then catch) */

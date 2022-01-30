@@ -1,3 +1,1 @@
 1. Events (Class va uning obyekti, new kalit so`zi, konstruktor)
-2. Event-loop
-3. Streams
