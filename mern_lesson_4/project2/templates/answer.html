@@ -7,6 +7,11 @@
     <title>Poytaxtlar</title>
     <link rel="shortcut icon" href="https://picsum.photos/50/50" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.1/tailwind.min.css">
+    <style>
+        .country {
+            text-transform: capitalize;
+        }
+    </style>
 </head>
 <body>
     <body class="antialiased bg-gray-200 font-sans">
@@ -17,7 +22,7 @@
                     </div>
                     <div>
                         <div class="p-4 md:p-5">
-                            <p class="font-bold text-xl md:text-2xl">{$COUNTRY$}ning poytaxti {$CITY$}</p>
+                            <p class="font-bold text-xl md:text-2xl"><span class="country">{$COUNTRY$}</span>ning poytaxti {$CITY$}</p>
                             <p class="text-gray-700 md:text-lg">Xizmat sizga manfat keltirayotganidan mamnunmiz! </p>
                         </div>
                         <div class="p-4 md:p-5 bg-gray-100">
