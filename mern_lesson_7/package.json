@@ -1,0 +1,21 @@
+{
+  "name": "lesson7",
+  "version": "1.0.0",
+  "description": "superagent, api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "superagent",
+    "node",
+    "npm"
+  ],
+  "author": "Ogabek",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^7.1.1"
+  }
+}
