@@ -5,3 +5,39 @@
 5. Create simple server with Express
 6. REST API (CRUD)
 7. Stateless
+
+MERN Stack Development
+
+Routes
+
+/
+/user
+/login
+/group
+
+REQUEST
+GET - Serverdan ma`lumot olish uchun 
+POST - Serverga ma`lumot yuborish (bazaga yozish)
+
+GET ochiq REQUEST
+POST yopiq REQUEST
+
+https://www.google.com/search?q=express.js
+
+PUT || PATCH - Bazadagi ma`lumotni o`zgartirish uchun 
+
+DELETE - Bazadan ma`lumot o`chirish uchun
+
+REST API 
+
+R - Read (GET)
+E - Edit (PUT || PATCH)
+S - Save (POST)
+T - Delete (DELETE)
+
+CRUD Operation
+
+C - Create (POST)
+R - Read (GET)
+U - Update (PUT || PATCH)
+D - Delete (DELETE)
