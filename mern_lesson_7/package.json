@@ -1,11 +1,11 @@
 {
-  "name": "lesson7",
+  "name": "dogimage",
   "version": "1.0.0",
   "description": "superagent, api",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "node index.js"
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
   },
   "keywords": [
     "api",
@@ -16,6 +16,7 @@
   "author": "Ogabek",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.2",
     "superagent": "^7.1.1"
   }
 }
