@@ -1,0 +1,23 @@
+{
+  "name": "server_with_express",
+  "version": "1.0.0",
+  "description": "express, nodejs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arash4567/MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arash4567/MERN/mern_lesson_9"
+  },
+  "homepage": "https://github.com/Arash4567/MERN/mern_lesson_9#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
