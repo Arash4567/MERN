@@ -1,1 +1,7 @@
 1. www.natours.dev
+2. RESTful API create
+3. https://www.natours.dev/api/v1/tours
+4. Get all tours API (GET Request)
+5. About middleware
+6. app.use(express.json())
+7. Create tour API (POST Request)
