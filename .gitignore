@@ -6,3 +6,9 @@ NODEJS/mern_lesson_8/node_modules
 NODEJS/mern_lesson_8/package-lock.json
 NODEJS/mern_lesson_9/node_modules
 NODEJS/mern_lesson_9/package-lock.json
+
+EXPRESSJS/node_modules
+EXPRESSJS/package-lock.json
+
+practise/express_test/node_modules
+practise/express_test/package-lock.json
