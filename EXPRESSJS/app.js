@@ -1,6 +1,7 @@
 import express from "express";
 import path from "path";
 import { requestTime, logger } from "./middlewares.js";
+import serverRoutes from "./routes/servers.js";
 
 const __dirname = path.resolve();
 const PORT = process.env.PORT ?? 3000;
@@ -46,14 +47,15 @@ const app = express();
 // });
 
 /* EJS - Embedded JavaScript */
-app.set('view engine', 'ejs')
+app.set("view engine", "ejs");
 // console.log(app.get('views'));
-app.set('views', path.resolve(__dirname, "ejs"))
+app.set("views", path.resolve(__dirname, "ejs"));
 // console.log(app.get('views'));
 
 app.use(express.static(path.resolve(__dirname, "ejs")));
 app.use(requestTime);
 app.use(logger);
+app.use(serverRoutes);
 
 // app.get('/', (req, res) => {
 //     res.render('index');
@@ -63,12 +65,25 @@ app.use(logger);
 //     res.render('user');
 // });
 
-app.get('/', (req, res) => {
-    res.render('index', {title: 'Home Page', home: 'EJS is powerfull!', active: 'home'});
+app.get("/", (req, res) => {
+  res.render("index", {
+    title: "Home Page",
+    home: "EJS is powerfull!",
+    active: "home",
+  });
 });
 
-app.get('/user', (req, res) => {
-    res.render('user', {title: 'User Page', username: 'Jack', active: 'user'});
+app.get("/user", (req, res) => {
+  res.render("user", { title: "User Page", username: "Jack", active: "user" });
+});
+
+app.get("/servers", (req, res) => {
+  res.render("servers", {
+    title: "Servers Page",
+    active: "servers",
+    serverName: "AWS",
+    serverStatus: "working",
+  });
 });
 
 /* TODO: KITOB sotagidan sayt yaratamiz! */
