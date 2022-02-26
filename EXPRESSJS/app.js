@@ -64,11 +64,11 @@ app.use(logger);
 // });
 
 app.get('/', (req, res) => {
-    res.render('index', {title: 'Home Page', home: 'EJS is powerfull!'});
+    res.render('index', {title: 'Home Page', home: 'EJS is powerfull!', active: 'home'});
 });
 
 app.get('/user', (req, res) => {
-    res.render('user', {title: 'User Page', username: 'Jack'});
+    res.render('user', {title: 'User Page', username: 'Jack', active: 'user'});
 });
 
 /* TODO: KITOB sotagidan sayt yaratamiz! */
