@@ -9,7 +9,21 @@
 ---
 ## Lesson 2 plan
 - About ReactJS state
-- Create simple `inrement` and `decrement` app
+- Create simple `increment` and `decrement` app
     - about state
     - onclick method
+- Working with Components
 - Use Bootstrap 5 in our app
+    - create simple web app
+---
+## Lesson 3 plan
+- Working with input (all)
+    - onchange method
+    - get input value
+- Create simple hide show event
+    - with ternary operation
+---
+## Lesson 4 plan
+- React components type
+    - stateless functional component
+    - stateful class component
