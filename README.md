@@ -27,3 +27,4 @@ https://dev.to/koolkishan/a-roadmap-to-learn-mern-stack-for-beginners-2l9k
 - NodeJS
 
 JSX = JavaScript + XML(HTML)
+CLI (Command Line Interface)
