@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function PasswordValidator() {
-  const [password, setPassword] = useState("");
+  const [pass, setPass] = useState("");
   const [kichikHarf, setKichikHarf] = useState(false);
   const [kattaHarf, setKattaHarf] = useState(false);
   const [son, setSon] = useState(false);
-  const [maxsusBelgi, setMaxsusbelgi] = useState(false);
+  const [belgi, setBelgi] = useState(false);
   const [uzunlik, setUzunlik] = useState(false);
-  function validatePassword(password) {
-    //   console.log(password);
+  function validator(password) {
     if (password.match(/[a-z]/g)) {
       setKichikHarf(true);
     } else {
@@ -24,10 +23,10 @@ function PasswordValidator() {
     } else {
       setSon(false);
     }
-    if (password.match(/[$&+,:;=?@#|'<>.^*()%!-]/g)) {
-      setMaxsusbelgi(true);
+    if (password.match(/[!@#$%^&*()_+";',.?><:`~]/g)) {
+      setBelgi(true);
     } else {
-      setMaxsusbelgi(false);
+      setBelgi(false);
     }
     if (password.length >= 6) {
       setUzunlik(true);
@@ -37,47 +36,44 @@ function PasswordValidator() {
   }
   return (
     <>
-      <label htmlFor="pass">Enter password:</label>
       <input
-        id="pass"
-        className="form-control"
         type="password"
+        className="form-control"
         onChange={(e) => {
-          validatePassword(e.target.value);
-          setPassword(e.target.value);
+          setPass(e.target.value);
+          validator(e.target.value);
         }}
       />
-      <p className="lead mt-3">
-        Password value: <strong>{password}</strong>
-      </p>
-      <p>Sizning parolingizda:</p>
-      <ul className="h6">
-        {kattaHarf ? (
-          <li className="text-success">Kamida 1 ta bosh harf</li>
+      <ul className="mt-3">
+        {son ? (
+          <li className="text-success">Kamida 1 ta son</li>
         ) : (
-          <li className="text-danger">Kamida 1 ta bosh harf</li>
+          <li className="text-danger">Kamida 1 ta son</li>
+        )}
+        {belgi ? (
+          <li className="text-success">Kamida 1 ta belgi</li>
+        ) : (
+          <li className="text-danger">Kamida 1 ta belgi</li>
         )}
         {kichikHarf ? (
           <li className="text-success">Kamida 1 ta kichik harf</li>
         ) : (
           <li className="text-danger">Kamida 1 ta kichik harf</li>
         )}
-        {son ? (
-          <li className="text-success">Kamida 1 ta son</li>
+        {kattaHarf ? (
+          <li className="text-success">Kamida 1 ta katta harf</li>
         ) : (
-          <li className="text-danger">Kamida 1 ta son</li>
-        )}
-        {maxsusBelgi ? (
-          <li className="text-success">Kamida 1 ta maxsus belgi</li>
-        ) : (
-          <li className="text-danger">Kamida 1 ta maxsus belgi</li>
+          <li className="text-danger">Kamida 1 ta katta harf</li>
         )}
         {uzunlik ? (
-          <li className="text-success">Minimal 6ta belgi</li>
+          <li className="text-success">Minimal 6 ta belgi</li>
         ) : (
-          <li className="text-danger">Minimal 6ta belgi</li>
+          <li className="text-danger">Minimal 6 ta belgi</li>
         )}
       </ul>
+      {son && belgi && kichikHarf && kattaHarf && uzunlik ? (
+        <button className="btn btn-primary">Submit</button>
+      ) : null}
     </>
   );
 }
