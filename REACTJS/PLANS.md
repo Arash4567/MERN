@@ -24,6 +24,18 @@
     - with ternary operation
 ---
 ## Lesson 4 plan
+- UI components
+    - table
+    - button
+    - input
+- React JS props (parameters)
+    - props.children
+    - children
+    - three dot (...)
+---
+## Lesson 5 plan
 - React components type
     - stateless functional component
     - stateful class component
+- Create close friend app
+    - parameters (name, age, hobby)
