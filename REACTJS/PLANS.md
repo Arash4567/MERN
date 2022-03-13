@@ -37,5 +37,7 @@
 - React components type
     - stateless functional component
     - stateful class component
-- Create close friend app
+- Create closeFriend app
     - parameters (name, age, hobby)
+- HOMEWORK
+    - CloseFriend App da barcha metodlarni componentalarga bo`lish
