@@ -47,6 +47,10 @@
     - bola componentsdan ota componentaga props uzatish
 - Create removeFriends functionality for project
 - Create sort functionality for entered data
+    - JavaScript localeCompare() function
+- HOMEWORK
+    - Sortda default qiymatni tanlasak dastur xatolik beradi. 
+    Vazifangiz shu xatolikni bartaraf qilishdan iborat!
 ---
 ## Lesson 7 plan
 - Create searchFriend functionality for project
