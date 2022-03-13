@@ -46,11 +46,11 @@ function App() {
         position: "topRight",
       });
     }
-    if (newFriend.name === "") {
+    if (newFriend.name == "") {
       error("ism");
     } else if (newFriend.age == 0) {
       error("yosh");
-    } else if (newFriend.hobby === "") {
+    } else if (newFriend.hobby == "") {
       error("hobby");
     } else {
       setFriend([...friends, { id: Date.now(), ...newFriend }]);

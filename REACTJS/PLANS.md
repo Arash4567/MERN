@@ -41,3 +41,12 @@
     - parameters (name, age, hobby)
 - HOMEWORK
     - CloseFriend App da barcha metodlarni componentalarga bo`lish
+---
+## Lesson 6 plan
+- Projectni componentalarga bo`lamiz
+    - bola componentsdan ota componentaga props uzatish
+- Create removeFriends functionality for project
+- Create sort functionality for entered data
+---
+## Lesson 7 plan
+- Create searchFriend functionality for project
