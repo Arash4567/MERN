@@ -39,22 +39,19 @@ function App() {
         position: "topRight",
       });
     }
-    function success() {
+    if (newFriend.name === "") {
+      error("ism");
+    } else if (newFriend.age === 0) {
+      error("yosh");
+    } else if (newFriend.hobby === "") {
+      error("hobby");
+    } else {
+      setFriend([...friends, { id: Date.now(), ...newFriend }]);
       iziToast.success({
         title: "Friend,",
         message: "muvafaqiyatli qo`shildi!",
         position: "topRight",
       });
-    }
-    if (newFriend.name == "") {
-      error("ism");
-    } else if (newFriend.age == 0) {
-      error("yosh");
-    } else if (newFriend.hobby == "") {
-      error("hobby");
-    } else {
-      setFriend([...friends, { id: Date.now(), ...newFriend }]);
-      success();
       setNewFriend({ name: "", age: 0, hobby: "" });
     }
   };
