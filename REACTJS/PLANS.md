@@ -42,7 +42,7 @@
 - React JS props (parameters)
   - props.children
   - children
-  - three dot (...)
+  - three dot (...) (Spread or rest operators)
 
 ---
 
@@ -74,3 +74,17 @@
 ## Lesson 7 plan
 
 - Create searchFriend functionality for project
+  - stop rerendering app
+  - about useMemo() methods
+  - all written code separation into separate components
+
+---
+
+## Lesson 8 plan
+
+- Create modal component
+  - CSS fileni module sifatida yaratish
+  - CSS stylelardan to`g`ri foydalanish
+- stopPropagation()
+- animations
+  - react-transition-group
