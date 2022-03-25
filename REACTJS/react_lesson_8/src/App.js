@@ -29,7 +29,7 @@ function App() {
 
   const sortedAndSearchedFriends = useMemo(() => {
     return sortedFriends.filter((friend) =>
-      friend.name.toLocaleLowerCase().includes(filter.search.toLocaleLowerCase())
+      friend.name.toLowerCase().includes(filter.search.toLowerCase())
     );
   }, [filter.search, sortedFriends]);
 

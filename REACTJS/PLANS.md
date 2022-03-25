@@ -97,3 +97,26 @@
   - middleware (hook)
   - Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
 
+---
+
+## Lesson 10 plan
+
+- Working with server
+- useEffect Lifecycle
+  ```
+  - useEffect(() => {
+
+     }, []) (mount)
+
+  - useEffect(() => {
+
+    }, [something]) (update)
+
+  - useEffect(() => {
+      return() => {
+
+      }
+    }, []) (unmount)
+  ```
+
+
