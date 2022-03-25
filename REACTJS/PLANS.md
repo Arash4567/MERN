@@ -88,3 +88,12 @@
 - stopPropagation()
 - animations
   - react-transition-group
+
+---
+
+## Lesson 9 plan
+
+- Private hook (shaxsiy hooklar)
+  - middleware (hook)
+  - Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+
