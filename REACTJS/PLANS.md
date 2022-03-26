@@ -119,4 +119,12 @@
     }, []) (unmount)
   ```
 
+---
+
+## Lesson 11 plan
+
+- Working with server
+  - errorHandling
+  - create fetching hooks
+- paginations
 
