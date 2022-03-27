@@ -3,7 +3,7 @@ import React from "react";
 function TableItems(props) {
   return (
     <tr className="align-middle">
-      <td>{props.rowNumber}</td>
+      <td>{props.post.id}</td>
       <td>{props.post.title}</td>
       <td>{props.post.body}</td>
       <td>

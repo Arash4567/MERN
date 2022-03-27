@@ -15,7 +15,6 @@ function TableList(props) {
                   return (
                       <TableItems
                         remove={props.remove}
-                        rowNumber={index + 1}
                         post={post}
                         key={post.id}
                       />
