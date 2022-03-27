@@ -128,3 +128,9 @@
   - create fetching hooks
 - paginations
 
+---
+
+## Lesson 12 plan
+
+- React router
+
