@@ -28,3 +28,6 @@ https://dev.to/koolkishan/a-roadmap-to-learn-mern-stack-for-beginners-2l9k
 
 JSX = JavaScript + XML(HTML)
 CLI (Command Line Interface)
+
+Prisma - Next-generation Node.js and TypeScript ORM (Object Relational mapping)
+- https://www.prisma.io/
