@@ -153,3 +153,23 @@
   - Ant.Design
   - Chakra UI
 
+---
+
+## Redux plan
+
+- What is Redux?
+  - Install
+    - redux
+    - react-redux
+  - Reducer
+  - Action
+    - Creator
+    - Type
+    - Payload  
+  - Dispatch
+  - Store
+- useSelector hook
+- useDispatch hook
+- redux-thunk
+  - applyMiddleware
+
