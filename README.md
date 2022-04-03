@@ -26,6 +26,19 @@ https://dev.to/koolkishan/a-roadmap-to-learn-mern-stack-for-beginners-2l9k
 - VueJS
 - NodeJS
 
+## PEAN
+- PostgreSQL (SQL)
+- Express
+- AngularJS
+- NodeJS
+- NodeJS
+
+## MEAN
+- MongoDB (noSQL)
+- Express
+- AngularJS
+- NodeJS
+
 - JSX = JavaScript + XML(HTML)
 - CLI (Command Line Interface)
 
